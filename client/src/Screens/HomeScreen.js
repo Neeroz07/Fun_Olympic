@@ -8,6 +8,10 @@ import PopularMovies from '../Components/Home/PopularMovies';
 import Promos from '../Components/Home/Promos';
 import TopRated from '../Components/Home/TopRated';
 import Layout from '../Layout/Layout';
+import Testimonials from "../Components/Home/Testimonials";
+import Sliders from "../Components/Home/Sliders";
+import ContactForm from "../Components/Home/ContactForm";
+
 import {
   getAllMoviesAction,
   getRandomMoviesAction,
@@ -52,11 +56,15 @@ function HomeScreen() {
     <Layout>
       <div className="container mx-auto min-h-screen px-2 mb-6">
         <Banner movies={movies} isLoading={isLoading} />
+            <TopRated movies={topMovies} isLoading={topLoading} />
+
         <PopularMovies movies={randomMovies} isLoading={randomLoading} />
         <Promos />
+    <Testimonials />
+    <Sliders />
+    <ContactForm/>
         {/* <div>
         <Contact /></div> */}
-        <TopRated movies={topMovies} isLoading={topLoading} />
       </div>
     </Layout>
   );
