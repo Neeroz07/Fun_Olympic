@@ -1,0 +1,19 @@
+PORT = 
+MONGO_URI = "mongo atlas" 
+
+JWT_SECRET = 
+NODE_ENV = 
+
+# firebase credential
+FIREBASE_TYPE =  
+PROJECT_ID = 
+PRIVATE_KEY_ID = ""
+PRIVATE_KEY = ""
+CLIENT_EMAIL = ""
+CLIENT_ID = ""
+CLIENT_X509_CERT_URL = ""
+FIREBASE_STORAGE_BUCKET = 
+
+EMAIL = 
+PASSWORD = 
+SECRET_KEY = 
